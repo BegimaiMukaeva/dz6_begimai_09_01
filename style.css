@@ -1,0 +1,31 @@
+button {
+    height: 49px;
+   background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #4CAF50;
+    outline: none;
+}
+
+input:focus {
+    background-color: #4CAF50;
+}
